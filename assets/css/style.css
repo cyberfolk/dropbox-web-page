@@ -146,9 +146,17 @@
 /* #region call-to-action */
 
 /* #endregion call-to-action */
-/* #region faq */
+/* #region faqs */
+.faqs .title {
+    display: flex;
+    justify-content: space-between;
+}
 
-/* #endregion faq */
+.faqs .ask {
+    font-weight: bold;
+}
+
+/* #endregion faqs */
 /* #endregion app-main */
 /* #region app-footer */
 /* #region footer-top */

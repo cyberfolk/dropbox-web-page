@@ -502,7 +502,7 @@
 .col-4 {
     width: calc((100% / 12) * 4);
     /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .col-3 {
@@ -554,18 +554,12 @@
 /* #endregion Flex */
 
 /* #region Button-utility */
+.btn-w-max {
+    width: 100%;
+}
+
 .btn {
     padding: 0.5rem;
-}
-
-.btn-small {
-    padding: 0.25rem 0.75rem;
-    font-size: 0.9rem;
-}
-
-.btn-lg {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
 }
 
 .btn-white {
