@@ -19,7 +19,7 @@
 
 /* #region app-main */
 .debug > #app-main {
-    height: 4200px;
+    height: 4800px;
     background-color: yellow;
 }
 
@@ -159,6 +159,18 @@
 }
 
 /* #endregion call-to-action */
+/* #region faq */
+.debug .faq {
+    background-color: wheat;
+    height: 600px;
+}
+
+.debug .faq .container {
+    background-color: greenyellow;
+    height: 100%;
+}
+
+/* #endregion faq */
 /* #endregion app-main */
 
 /* #region app-footer */
