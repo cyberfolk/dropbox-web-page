@@ -536,6 +536,9 @@
 /* #endregion Flex */
 
 /* #region Button-utility */
+.btn {
+    padding: 0.5rem;
+}
 
 .btn-small {
     padding: 0.25rem 0.75rem;
@@ -547,19 +550,13 @@
     font-size: 0.9rem;
 }
 
-.btn-light {
-    background-color: var(--d-btn-light);
-    color: var(--d-btn-dark)
-}
-
-.btn-dark {
-    background-color: var(--d-btn-dark);
-    color: var(--d-btn-lighter)
+.btn-white {
+    background-color: white;
 }
 
 .btn-primary {
-    background-color: var(--d-btn-primary);
-    color: var(--d-btn-lighter);
+    background-color: var(--d-light);
+    color: white;
 }
 
 /* #endregion Button-utility */
