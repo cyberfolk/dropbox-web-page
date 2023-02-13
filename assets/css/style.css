@@ -1,0 +1,29 @@
+/* #region Debug */
+.debug > #app-header {
+    height: var(--d-debug-height);
+    background-color: var(--d-app-header-bg);
+}
+
+.debug > #app-main {
+    height: var(--d-debug-height);
+    background-color: var(--d-app-main-bg);
+}
+
+.debug > #app-footer {
+    height: var(--d-debug-height);
+    background-color: var(--d-app-footer-bg);
+}
+
+/* #endregion Debug */
+
+/* #region app-header */
+
+/* #endregion app-header */
+
+/* #region app-main */
+
+/* #endregion app-main */
+
+/* #region app-footer */
+
+/* #endregion app-footer */
