@@ -22,6 +22,15 @@
     background-color: var(--d-jumbotron-bg);
 }
 
+.list-plan-highlights > li::marker {
+    content: "\f00c";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    font-size: var(--icon-size);
+    color: var(--d-light);
+}
+
+
 .designit .col-6 > svg {
     width: 100%;
     padding: 2rem;

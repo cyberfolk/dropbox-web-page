@@ -19,12 +19,16 @@ a:hover {
     font-size: 1.1rem;
 }
 
-li {
-    list-style-type: none;
-}
-
 img {
     max-width: 100%;
+}
+
+ul {
+    padding-left: var(--icon-size);
+}
+
+ul li {
+    padding-left: var(--gutter);
 }
 
 :root {
@@ -40,6 +44,9 @@ img {
     --d-btn-lighter: white;
     --d-app-header-height: 50px;
     --d-app-footer-height: 50px;
+    --icon-size: .8em;
+    --gutter: .5em;
+    --d-light: #0061ff;
 }
 
 /* #endregion Common Rules */
