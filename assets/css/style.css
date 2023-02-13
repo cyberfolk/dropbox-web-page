@@ -99,6 +99,43 @@
     width: 100%;
     aspect-ratio: 1/1;
     padding: 3rem;
+    filter: invert(100%);
+}
+
+.designit .l-designit_b {
+    background-color: #A2D39B;
+}
+
+.designit .asu {
+    background-color: #61082B;
+}
+
+.designit .uf {
+    background-color: #0093CE;
+}
+
+.designit .topps {
+    background-color: #FF1C1C;
+}
+
+.designit .l-designit {
+    background-color: #F5F5F5;
+}
+
+.designit .wbr {
+    background-color: #D5001F;
+}
+
+.designit .hearstcorp {
+    background-color: #B4D0E7;
+}
+
+.designit .lonely-planet {
+    background-color: #0D2481;
+}
+
+.designit .cco {
+    background-color: #FFD830;
 }
 
 /* #endregion designit */
