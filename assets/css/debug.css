@@ -19,9 +19,11 @@
 
 /* #region app-main */
 .debug > #app-main {
-    height: 1800px;
+    height: 4200px;
     background-color: yellow;
 }
+
+/* #region jumbotron */
 
 .debug .jumbotron {
     height: 600px;
@@ -32,8 +34,12 @@
     height: 100%;
 }
 
+/* #endregion jumbotron */
+/* #region plans */
+
 .debug .plans {
     height: 600px;
+    background-color: wheat;
 }
 
 .debug .plans .container {
@@ -48,7 +54,6 @@
 .debug .plans .container .row {
     height: 80%;
     justify-content: center;
-
 }
 
 .debug .plans .col-4,
@@ -64,8 +69,80 @@
     height: 30%;
 }
 
-/* #endregion app-main */
+/* #endregion plans */
+/* #region partner */
 
+.debug .partner {
+    background-color: var(--d-jumbotron-bg);
+    height: 600px;
+}
+
+.debug .partner .container {
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.debug .partner .col-7,
+.debug .partner .col-5 {
+    height: 100%;
+    background-color: aqua;
+}
+
+/* #endregion partner */
+/* #region operation */
+.debug .operation {
+    background-color: wheat;
+    height: 600px;
+}
+
+.debug .operation .container {
+    background-color: greenyellow;
+    height: 100%;
+}
+
+.debug .operation header {
+    height: 20%;
+}
+
+.debug .operation .container .row {
+    height: 80%;
+    justify-content: center;
+}
+
+.debug .operation .col-4 {
+    background-color: aqua;
+    height: 50%;
+}
+
+/* #endregion operation */
+/* #region claim */
+
+.debug .claim {
+    height: 600px;
+    background-color: var(--d-jumbotron-bg);
+}
+
+.debug .claim .container {
+    background-color: greenyellow;
+    height: 100%;
+}
+
+/* #endregion claim */
+/* #region designit */
+
+.debug .designit {
+    height: 600px;
+    background-color: wheat
+}
+
+.debug .designit .row {
+    background-color: aqua;
+    height: 100%;
+}
+
+/* #endregion designit */
+
+/* #endregion app-main */
 
 /* #region app-footer */
 .debug > #app-footer {
