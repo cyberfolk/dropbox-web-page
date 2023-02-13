@@ -23,12 +23,8 @@ img {
     max-width: 100%;
 }
 
-ul {
-    padding-left: var(--icon-size);
-}
-
 ul li {
-    padding-left: var(--gutter);
+    list-style-type: none;
 }
 
 :root {

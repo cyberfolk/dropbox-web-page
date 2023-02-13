@@ -18,8 +18,23 @@
 }
 
 /* #endregion app-header */
+/* #region app-main */
+
+/* #region jumbotron */
+
 .jumbotron {
     background-color: var(--d-jumbotron-bg);
+}
+
+/* #endregion jumbotron */
+/* #region plans */
+.list-plan-highlights {
+    padding-left: var(--icon-size);
+}
+
+.list-plan-highlights > li {
+    padding-left: var(--gutter);
+    list-style-type: none;
 }
 
 .list-plan-highlights > li::marker {
@@ -30,16 +45,35 @@
     color: var(--d-light);
 }
 
+/* #endregion plans */
+/* #region partner */
 
+/* #endregion partner */
+/* #region operation */
+
+/* #endregion operation */
+/* #region claim */
+
+/* #endregion claim */
+/* #region designit */
 .designit .col-6 > svg {
     width: 100%;
     padding: 2rem;
 }
 
-/* #region app-main */
+/* #endregion designit */
+/* #region call-to-action */
 
+/* #endregion call-to-action */
+/* #region faq */
+
+/* #endregion faq */
 /* #endregion app-main */
-
 /* #region app-footer */
+/* #region footer-top */
 
+/* #endregion footer-top */
+/* #region footer-bottom */
+
+/* #endregion footer-bottom */
 /* #endregion app-footer */
