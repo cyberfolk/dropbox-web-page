@@ -182,7 +182,7 @@
 /* #region footer-top */
 .debug .footer-top {
     background-color: rgb(32, 32, 32);
-    height: 300px;
+    /* height: 300px; */
 }
 
 .debug .footer-top .container {
@@ -204,7 +204,7 @@
 /* #region footer-bottom */
 .debug .footer-bottom {
     background-color: rgb(66, 66, 66);
-    height: 300px;
+    /* height: 300px; */
 }
 
 .debug .footer-bottom .container {
