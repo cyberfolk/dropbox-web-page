@@ -3,18 +3,27 @@
     height: var(--d-app-header-height);
 }
 
-.menu-left,
-.menu-right {
+#app-header .menu-left,
+#app-header .menu-right {
     height: 100%;
     display: flex;
 }
 
-.menu-left {
+#app-header .menu-left {
     justify-content: flex-start;
 }
 
-.menu-right {
+#app-header .menu-right {
     justify-content: flex-end;
+}
+
+#app-header a {
+    color: white;
+    text-decoration: none;
+}
+
+#app-header a:hover {
+    text-decoration: underline;
 }
 
 /* #endregion app-header */
@@ -24,6 +33,14 @@
 
 .jumbotron {
     background-color: var(--d-jumbotron-bg);
+}
+
+.jumbotron {
+    height: 400px;
+}
+
+.jumbotron .row {
+    flex-wrap: nowrap;
 }
 
 /* #endregion jumbotron */
@@ -80,7 +97,8 @@
 /* #region designit */
 .designit .col-6 > svg {
     width: 100%;
-    padding: 2rem;
+    aspect-ratio: 1/1;
+    padding: 3rem;
 }
 
 /* #endregion designit */
