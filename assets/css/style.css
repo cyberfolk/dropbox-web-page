@@ -28,6 +28,10 @@
 
 /* #endregion jumbotron */
 /* #region plans */
+.plane-type {
+    text-align: center;
+}
+
 .list-plan-highlights,
 .list-plan-features {
     padding-left: var(--icon-size);
