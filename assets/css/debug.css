@@ -179,6 +179,41 @@
     background-color: black;
 }
 
+/* #region footer-top */
+.debug .footer-top {
+    background-color: rgb(32, 32, 32);
+    height: 300px;
+}
+
+.debug .footer-top .container {
+    background-color: greenyellow;
+    height: 100%;
+}
+
+.debug .footer-top .container .row {
+    height: 100%;
+    justify-content: center;
+}
+
+.debug .footer-top .col-p20 {
+    background-color: aqua;
+    height: 100%;
+}
+
+/* #endregion footer-top */
+/* #region footer-bottom */
+.debug .footer-bottom {
+    background-color: rgb(66, 66, 66);
+    height: 300px;
+}
+
+.debug .footer-bottom .container {
+    background-color: greenyellow;
+    height: 100%;
+}
+
+/* #endregion footer-bottom */
+
 /* #endregion app-footer */
 
 /* #region Debug */

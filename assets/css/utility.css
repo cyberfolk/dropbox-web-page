@@ -423,6 +423,11 @@
 /* #endregion Padding Margin */
 
 /* #region Col-X */
+.col-p20 {
+    width: 20%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
 
 .col-12 {
     width: calc((100% / 12) * 12);
