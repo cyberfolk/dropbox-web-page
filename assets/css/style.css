@@ -93,6 +93,14 @@
 /* #endregion app-main */
 /* #region app-footer */
 /* #region footer-top */
+#app-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#app-footer a:hover {
+    text-decoration: underline;
+}
 
 /* #endregion footer-top */
 /* #region footer-bottom */
