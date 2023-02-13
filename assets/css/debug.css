@@ -25,13 +25,13 @@
 
 /* #region jumbotron */
 
-.debug .jumbotron {
+/* .debug .jumbotron {
     height: 600px;
-}
+} */
 
 .debug .jumbotron .container-sm {
     background-color: green;
-    height: 100%;
+    /* height: 100%; */
 }
 
 /* #endregion jumbotron */
