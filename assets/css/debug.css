@@ -145,7 +145,7 @@
 
 .debug .call-to-action {
     background-color: var(--d-jumbotron-bg);
-    height: 600px;
+    /* height: 600px; */
 }
 
 .debug .call-to-action .container {
