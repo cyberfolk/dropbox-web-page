@@ -162,7 +162,7 @@
 /* #region faq */
 .debug .faq {
     background-color: wheat;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .debug .faq .container {
