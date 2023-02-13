@@ -6,14 +6,15 @@
 .menu-left,
 .menu-right {
     height: 100%;
+    display: flex;
 }
 
 .menu-left {
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .menu-right {
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 /* #endregion app-header */
