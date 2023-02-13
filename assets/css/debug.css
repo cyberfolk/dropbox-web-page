@@ -39,6 +39,7 @@
 
 .debug .plans {
     background-color: wheat;
+    /* height: 600px; */
 }
 
 .debug .plans .container {
@@ -73,7 +74,7 @@
 
 .debug .partner {
     background-color: var(--d-jumbotron-bg);
-    height: 600px;
+    /* height: 600px; */
 }
 
 .debug .partner .container {
