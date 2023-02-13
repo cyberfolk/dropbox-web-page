@@ -5,7 +5,6 @@
 
 #app-header .menu-left,
 #app-header .menu-right {
-    height: 100%;
     display: flex;
 }
 

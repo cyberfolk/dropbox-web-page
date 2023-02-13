@@ -15,14 +15,6 @@
     background-repeat: no-repeat;
 }
 
-.w-60 {
-    width: 60%;
-}
-
-.w-40 {
-    width: 40%;
-}
-
 .left {
     float: left;
 }
@@ -35,6 +27,8 @@
     list-style: none;
     display: flex;
     gap: 0.5rem;
+    height: 100%;
+    align-items: center;
 }
 
 .p-sticky {
