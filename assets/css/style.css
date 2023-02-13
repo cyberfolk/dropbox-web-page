@@ -28,20 +28,38 @@
 
 /* #endregion jumbotron */
 /* #region plans */
-.list-plan-highlights {
+.list-plan-highlights,
+.list-plan-features {
     padding-left: var(--icon-size);
 }
 
-.list-plan-highlights > li {
+.list-plan-highlights > li,
+.list-plan-features > li {
     padding-left: var(--gutter);
     list-style-type: none;
 }
 
-.list-plan-highlights > li::marker {
-    content: "\f00c";
+.list-plan-highlights > li::marker,
+.list-plan-features > li::marker {
     /* FontAwesome Unicode */
     font-family: FontAwesome;
     font-size: var(--icon-size);
+}
+
+.list-plan-features > .n-user::marker {
+    content: "\f007";
+}
+
+.list-plan-features > .space::marker {
+    content: "\f07b";
+}
+
+.list-plan-features > .share::marker {
+    content: "\f1e0";
+}
+
+.list-plan-highlights > li::marker {
+    content: "\f00c";
     color: var(--d-light);
 }
 
