@@ -29,7 +29,7 @@
     height: 600px;
 } */
 
-.debug .jumbotron .container-sm {
+.debug .jumbotron .container-big {
     background-color: green;
     /* height: 100%; */
 }

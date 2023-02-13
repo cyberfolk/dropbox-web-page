@@ -68,6 +68,18 @@
     margin: auto;
 }
 
+.container-big {
+    width: 90%;
+    max-width: 1560px;
+    margin: auto;
+}
+
+.container-sm {
+    width: 60%;
+    max-width: 840px;
+    margin: auto;
+}
+
 /* #endregion Container */
 
 /* #region Padding Margin */
