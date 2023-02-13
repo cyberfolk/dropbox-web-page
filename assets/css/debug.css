@@ -19,7 +19,7 @@
 
 /* #region app-main */
 .debug > #app-main {
-    height: 4800px;
+    /* height: 4800px; */
     background-color: yellow;
 }
 
@@ -175,7 +175,7 @@
 
 /* #region app-footer */
 .debug > #app-footer {
-    height: 600px;
+    /* height: 600px; */
     background-color: black;
 }
 
