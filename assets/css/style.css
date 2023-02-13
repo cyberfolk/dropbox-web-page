@@ -1,24 +1,25 @@
-/* #region Debug */
-.debug > #app-header {
-    height: var(--d-debug-height);
-    background-color: var(--d-app-header-bg);
-}
-
-.debug > #app-main {
-    height: var(--d-debug-height);
-    background-color: var(--d-app-main-bg);
-}
-
-.debug > #app-footer {
-    height: var(--d-debug-height);
-    background-color: var(--d-app-footer-bg);
-}
-
-/* #endregion Debug */
-
 /* #region app-header */
+#app-header {
+    height: var(--d-app-header-height);
+}
+
+.menu-left,
+.menu-right {
+    height: 100%;
+}
+
+.menu-left {
+    justify-content: flex-end;
+}
+
+.menu-right {
+    justify-content: flex-start;
+}
 
 /* #endregion app-header */
+.jumbotron {
+    background-color: var(--d-jumbotron-bg);
+}
 
 /* #region app-main */
 

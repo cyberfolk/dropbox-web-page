@@ -1,0 +1,78 @@
+/* #region Debug */
+
+/* #region app-header */
+.debug * {
+    border: 1px solid black;
+}
+
+.debug > #app-header {
+    background-color: var(--d-app-header-bg);
+}
+
+.debug .menu-left,
+.debug .menu-right {
+    background-color: orangered;
+    flex-basis: 50%
+}
+
+/* #endregion app-header */
+
+/* #region app-main */
+.debug > #app-main {
+    height: 1800px;
+    background-color: yellow;
+}
+
+.debug .jumbotron {
+    height: 600px;
+}
+
+.debug .jumbotron .container-sm {
+    background-color: green;
+    height: 100%;
+}
+
+.debug .plans {
+    height: 600px;
+}
+
+.debug .plans .container {
+    background-color: greenyellow;
+    height: 100%;
+}
+
+.debug .plans header {
+    height: 20%;
+}
+
+.debug .plans .container .row {
+    height: 80%;
+    justify-content: center;
+
+}
+
+.debug .plans .col-4,
+.debug .plans .col-12 {
+    background-color: aqua;
+}
+
+.debug .plans .col-4 {
+    height: 70%;
+}
+
+.debug .plans .col-12 {
+    height: 30%;
+}
+
+/* #endregion app-main */
+
+
+/* #region app-footer */
+.debug > #app-footer {
+    height: 600px;
+    background-color: black;
+}
+
+/* #endregion app-footer */
+
+/* #region Debug */
