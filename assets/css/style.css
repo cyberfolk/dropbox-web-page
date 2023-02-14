@@ -159,6 +159,9 @@
 
 /* #endregion plans */
 /* #region partners */
+.partners .btn {
+    border: 1px solid black;
+}
 
 /* #endregion partners */
 /* #region operations */

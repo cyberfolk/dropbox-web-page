@@ -68,23 +68,23 @@
 }*/
 
 /* #endregion plans */
-/* #region partner */
+/* #region partners */
 
-.debug .partner {
+/* .debug .partners {
     background-color: var(--d-jumbo-bg);
-    /* height: 600px; */
+    height: 600px; 
 }
 
-.debug .partner .container {
+.debug .partners .container {
     height: 100%;
     background-color: greenyellow;
 }
 
-.debug .partner .col-7,
-.debug .partner .col-5 {
+.debug .partners .col-7,
+.debug .partners .col-5 {
     height: 100%;
     background-color: aqua;
-}
+} */
 
 /* #endregion partner */
 /* #region operation */
