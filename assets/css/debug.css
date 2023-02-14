@@ -171,15 +171,15 @@
 /* #endregion faq */
 /* #endregion app-main */
 /* #region app-footer */
-.debug > #app-footer {
-    /* height: 600px; */
+/* .debug > #app-footer {
+     height: 600px; 
     background-color: black;
 }
 
 /* #region footer-top */
-.debug .footer-top {
+/*.debug .footer-top {
     background-color: rgb(32, 32, 32);
-    /* height: 300px; */
+    /* height: 300px; 
 }
 
 .debug .footer-top .container {
@@ -194,19 +194,19 @@
 .debug .footer-top .col-p20 {
     background-color: aqua;
     height: 100%;
-}
+} */
 
 /* #endregion footer-top */
 /* #region footer-bottom */
-.debug .footer-bottom {
+/* .debug .footer-bottom {
     background-color: rgb(66, 66, 66);
-    /* height: 300px; */
+    /* height: 300px; 
 }
 
 .debug .footer-bottom .container {
     background-color: greenyellow;
     height: 100%;
-}
+} */
 
 /* #endregion footer-bottom */
 

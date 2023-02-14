@@ -297,7 +297,18 @@
 /* #endregion app-main */
 /* #region app-footer */
 /* #region footer-top */
+#app-footer {
+    color: white;
+    background-color: black;
+}
+
+#app-footer li {
+    margin-bottom: 1rem;
+    /* Controllare che magari si puà spostare in common */
+}
+
 #app-footer a {
+    /* Override della definizione messa in common */
     color: white;
     text-decoration: none;
 }
@@ -306,9 +317,13 @@
     text-decoration: underline;
 }
 
-/* allow space for check mark */
-
 /* #endregion footer-top */
+.spacer2 {
+    width: 5rem;
+    border-top: 2px solid lightgray;
+    margin-bottom: 3rem;
+}
+
 /* #region footer-bottom */
 
 /* #endregion footer-bottom */
