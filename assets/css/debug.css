@@ -158,15 +158,15 @@
 
 /* #endregion call-to-action */
 /* #region faq */
-.debug .faqs {
+/* .debug .faqs {
     background-color: wheat;
-    /* height: 600px; */
+    height: 600px; 
 }
 
 .debug .faqs .container {
     background-color: greenyellow;
     height: 100%;
-}
+} */
 
 /* #endregion faq */
 /* #endregion app-main */

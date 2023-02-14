@@ -136,7 +136,6 @@
 .list-plan-highlights > li::marker {
     content: "\f00c";
     color: var(--d-light);
-    font-weight: bolder;
 }
 
 .plans button {
@@ -249,6 +248,15 @@
 /* #endregion call-to-action */
 /* #region faqs */
 .faqs .faq {
+    border-top: 2px solid lightgray;
+    padding: 2rem 0;
+}
+
+.faqs #last-faq {
+    border-bottom: 2px solid lightgray;
+}
+
+.faqs .faq {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -258,14 +266,18 @@
     font-weight: bold;
 }
 
-.answer {
+.faqs .answer {
     display: none;
+    padding-right: 8rem;
+    padding-top: 1rem;
 }
 
 .faqs input[type=checkbox] {
     /* Uso appearance per nascondere il normale checkbox */
     appearance: none;
     font-family: FontAwesome;
+    font-size: 1rem;
+    padding-right: 2rem;
 }
 
 .faqs input[type=checkbox]:before {
