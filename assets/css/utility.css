@@ -119,6 +119,11 @@
     padding-left: 0.5rem;
 }
 
+.py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
 .py-5 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -164,7 +169,7 @@
     padding-top: 1rem;
 }
 
-.pt-08 {
+.pt-8 {
     padding-top: 8rem;
 }
 

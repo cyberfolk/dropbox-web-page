@@ -141,9 +141,9 @@
 /* #endregion designit */
 /* #region call-to-action */
 
-.debug .call-to-action {
+/* .debug .call-to-action {
     background-color: var(--d-jumbo-bg);
-    /* height: 600px; */
+    height: 600px; 
 }
 
 .debug .call-to-action .container {
@@ -154,16 +154,16 @@
 .debug .call-to-action .col-6 {
     height: 100%;
     background-color: aqua;
-}
+}*/
 
 /* #endregion call-to-action */
 /* #region faq */
-.debug .faq {
+.debug .faqs {
     background-color: wheat;
     /* height: 600px; */
 }
 
-.debug .faq .container {
+.debug .faqs .container {
     background-color: greenyellow;
     height: 100%;
 }

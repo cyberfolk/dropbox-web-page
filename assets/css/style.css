@@ -236,6 +236,15 @@
 
 /* #endregion designit */
 /* #region call-to-action */
+.call-to-action {
+    background-color: var(--d-jumbo-bg);
+}
+
+.call-to-action h2 {
+    color: #671435;
+    /* ho voluto sovrascrivere il margin di h2 per mettere py-8 nella call-to-action */
+    margin-bottom: 0;
+}
 
 /* #endregion call-to-action */
 /* #region faqs */
