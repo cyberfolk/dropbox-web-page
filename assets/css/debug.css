@@ -23,9 +23,9 @@
     background-color: yellow;
 }
 
-/* #region jumbotron */
+/* #region jumbo */
 
-/* .debug .jumbotron {
+/* .debug .jumbo {
     height: 600px;
 } */
 
@@ -33,7 +33,7 @@
     background-color: green;
 }
 
-/* #endregion jumbotron */
+/* #endregion jumbo */
 /* #region plans */
 
 .debug .plans {
@@ -72,7 +72,7 @@
 /* #region partner */
 
 .debug .partner {
-    background-color: var(--d-jumbotron-bg);
+    background-color: var(--d-jumbo-bg);
     /* height: 600px; */
 }
 
@@ -118,7 +118,7 @@
 
 .debug .claim {
     /* height: 600px; */
-    background-color: var(--d-jumbotron-bg);
+    background-color: var(--d-jumbo-bg);
 }
 
 .debug .claim .container {
@@ -143,7 +143,7 @@
 /* #region call-to-action */
 
 .debug .call-to-action {
-    background-color: var(--d-jumbotron-bg);
+    background-color: var(--d-jumbo-bg);
     /* height: 600px; */
 }
 
