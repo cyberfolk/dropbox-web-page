@@ -56,26 +56,65 @@
 
 /* #endregion jumbo */
 /* #region plans */
-.plane-type {
+.plans .row {
+    /* Metto questo margin negativo per controbilanciare il padding delle col-x */
+    margin: 0 -1rem;
+    align-items: flex-start;
+}
+
+.plans .col-4,
+.plans .col-12 {
+    /* Per via di qusto padding metto il margin nella row */
+    padding: 2.5rem 1rem 0;
+}
+
+.plans .plane-type {
     text-align: center;
+    padding: 0.5rem;
+    border-top: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
 }
 
-.list-plan-highlights,
-.list-plan-features {
-    padding-left: var(--icon-size);
+.plans .card {
+    border: 2px solid lightgray;
+    /* Per via di qusto padding metto il margin nella row */
+    padding: 0 1.5rem 1.5rem;
 }
 
-.list-plan-highlights > li,
-.list-plan-features > li {
+
+.plans h3 {
+    margin-top: 1.5rem;
+}
+
+.plans .price {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.plans .frequency {
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+.highlights {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.plans li {
+    margin-bottom: 1rem;
     padding-left: var(--gutter);
     list-style-type: none;
 }
 
-.list-plan-highlights > li::marker,
-.list-plan-features > li::marker {
+.plans ul {
+    padding-left: var(--icon-size);
+}
+
+.plans li::marker {
     /* FontAwesome Unicode */
     font-family: FontAwesome;
-    font-size: var(--icon-size);
 }
 
 .list-plan-features > .n-user::marker {
@@ -93,6 +132,29 @@
 .list-plan-highlights > li::marker {
     content: "\f00c";
     color: var(--d-light);
+    font-weight: bolder;
+}
+
+.plans button {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.spacer {
+    width: 3rem;
+    border-top: 1px solid lightgray;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.plans .col-12 .price {
+    padding-bottom: 2rem;
+}
+
+.plans .reset {
+    /* All'interno della card lrga mi serve annullare padding e margin della col-4  */
+    margin: 0;
+    padding: 0;
 }
 
 /* #endregion plans */

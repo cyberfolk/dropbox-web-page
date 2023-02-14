@@ -17,10 +17,10 @@
 /* #endregion app-header */
 
 /* #region app-main */
-.debug > #app-main {
-    /* height: 4800px; */
+/* .debug > #app-main {
+    height: 4800px;
     background-color: yellow;
-}
+} */
 
 /* #region jumbo */
 
@@ -35,10 +35,10 @@
 /* #endregion jumbo */
 /* #region plans */
 
-.debug .plans {
+/* .debug .plans {
     background-color: wheat;
-    /* height: 600px; */
-}
+    height: 600px; 
+} 
 
 .debug .plans .container {
     background-color: greenyellow;
@@ -65,7 +65,7 @@
 
 .debug .plans .col-12 {
     height: 30%;
-}
+}*/
 
 /* #endregion plans */
 /* #region partner */
