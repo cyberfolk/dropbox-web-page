@@ -1,11 +1,13 @@
 /* #region app-header */
 #app-header {
     height: var(--d-app-header-height);
+    background-color: white;
 }
 
 #app-header .menu-left,
 #app-header .menu-right {
     display: flex;
+    flex-basis: 50%;
 }
 
 #app-header .menu-left {
@@ -16,8 +18,14 @@
     justify-content: flex-end;
 }
 
+#app-header .list-inline {
+    gap: 2rem;
+    height: 100%;
+    align-items: center;
+}
+
 #app-header a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -27,7 +35,6 @@
 
 /* #endregion app-header */
 /* #region app-main */
-
 /* #region jumbo */
 
 .jumbo {

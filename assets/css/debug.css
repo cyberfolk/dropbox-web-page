@@ -1,19 +1,18 @@
 /* #region Debug */
 
 /* #region app-header */
-.debug * {
+/* .debug * {
     border: 1px solid black;
-}
+} */
 
-.debug > #app-header {
+/* .debug > #app-header {
     background-color: var(--d-app-header-bg);
 }
 
 .debug .menu-left,
 .debug .menu-right {
     background-color: orangered;
-    flex-basis: 50%
-}
+} */
 
 /* #endregion app-header */
 

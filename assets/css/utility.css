@@ -26,9 +26,6 @@
 .list-inline {
     list-style: none;
     display: flex;
-    gap: 0.5rem;
-    height: 100%;
-    align-items: center;
 }
 
 .p-sticky {
@@ -560,6 +557,7 @@
 
 .btn {
     padding: 0.5rem;
+    border: none;
 }
 
 .btn-white {
