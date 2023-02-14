@@ -60,8 +60,8 @@
 }
 
 .container-big {
-    width: 80%;
-    max-width: 1560px;
+    width: 60%;
+    max-width: 1152px;
     margin: auto;
 }
 
@@ -339,6 +339,10 @@
 
 .mt-2 {
     margin-top: 2rem;
+}
+
+.mt-1-5 {
+    margin-top: 1.5rem;
 }
 
 .mt-1 {

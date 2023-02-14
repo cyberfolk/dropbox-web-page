@@ -42,11 +42,16 @@
 }
 
 .jumbo {
-    height: 480px;
+    height: 632px;
 }
 
 .jumbo .row {
     flex-wrap: nowrap;
+}
+
+.jumbo .fa-arrow-down {
+    margin-top: 2rem;
+    font-size: 3rem;
 }
 
 /* #endregion jumbo */
