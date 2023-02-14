@@ -192,12 +192,13 @@
 .designit .col-6 > svg {
     width: 100%;
     aspect-ratio: 1/1;
-    padding: 3rem;
+    padding: 4rem;
     filter: invert(100%);
 }
 
 .designit .l-designit_b {
     background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 
 .designit .asu {
@@ -212,10 +213,6 @@
     background-color: #FF1C1C;
 }
 
-.designit .col-4 > svg {
-    width: 50%;
-    aspect-ratio: 2/1;
-}
 
 .designit .l-designit {
     background-color: #F5F5F5;
