@@ -113,19 +113,19 @@
 }*/
 
 /* #endregion operation */
-/* #region claim */
+/* #region team */
 
-.debug .claim {
-    /* height: 600px; */
+/* .debug .team {
+    /* height: 600px;
     background-color: var(--d-jumbo-bg);
 }
 
-.debug .claim .container {
+.debug .team .container {
     background-color: greenyellow;
     height: 100%;
-}
+} */
 
-/* #endregion claim */
+/* #endregion team */
 /* #region designit */
 
 .debug .designit {
