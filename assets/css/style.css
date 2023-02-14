@@ -28,21 +28,21 @@
 /* #endregion app-header */
 /* #region app-main */
 
-/* #region jumbotron */
+/* #region jumbo */
 
-.jumbotron {
-    background-color: var(--d-jumbotron-bg);
+.jumbo {
+    background-color: var(--d-jumbo-bg);
 }
 
-.jumbotron {
+.jumbo {
     height: 400px;
 }
 
-.jumbotron .row {
+.jumbo .row {
     flex-wrap: nowrap;
 }
 
-/* #endregion jumbotron */
+/* #endregion jumbo */
 /* #region plans */
 .plane-type {
     text-align: center;
@@ -84,15 +84,15 @@
 }
 
 /* #endregion plans */
-/* #region partner */
+/* #region partners */
 
-/* #endregion partner */
-/* #region operation */
+/* #endregion partners */
+/* #region operations */
 
-/* #endregion operation */
-/* #region claim */
+/* #endregion operations */
+/* #region team */
 
-/* #endregion claim */
+/* #endregion team */
 /* #region designit */
 .designit .col-6 > svg {
     width: 100%;
@@ -147,13 +147,37 @@
 
 /* #endregion call-to-action */
 /* #region faqs */
-.faqs .title {
+.faqs .faq {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .faqs .ask {
     font-weight: bold;
+}
+
+.answer {
+    display: none;
+}
+
+.faqs input[type=checkbox] {
+    /* Uso appearance per nascondere il normale checkbox */
+    appearance: none;
+    font-family: FontAwesome;
+}
+
+.faqs input[type=checkbox]:before {
+    content: "\f106";
+}
+
+.faqs input[type=checkbox]:checked:before {
+    content: "\f107";
+}
+
+/* checked icon */
+.faqs input[type=checkbox]:checked + .answer {
+    display: block;
 }
 
 /* #endregion faqs */
@@ -168,6 +192,8 @@
 #app-footer a:hover {
     text-decoration: underline;
 }
+
+/* allow space for check mark */
 
 /* #endregion footer-top */
 /* #region footer-bottom */
