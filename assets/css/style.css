@@ -82,6 +82,10 @@
     padding: 0 1.5rem 1.5rem;
 }
 
+.plans .row .col-4 .card {
+    /* Altezza messa per far finire le card tutte allo stesso tempo */
+    height: 820px;
+}
 
 .plans h3 {
     margin-top: 1.5rem;
