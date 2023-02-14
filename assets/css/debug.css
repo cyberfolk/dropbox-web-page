@@ -87,30 +87,30 @@
 } */
 
 /* #endregion partner */
-/* #region operation */
-.debug .operation {
+/* #region operations */
+/* .debug .operations {
     background-color: wheat;
-    /* height: 600px; */
+     height: 600px; 
 }
 
-.debug .operation .container {
+.debug .operations .container {
     background-color: greenyellow;
     height: 100%;
-}
+} */
 
 /* .debug .operation header {
     height: 20%;
-} */
+} 
 
-.debug .operation .container .row {
+.debug .operations .container .row {
     height: 80%;
     justify-content: center;
 }
 
-.debug .operation .col-4 {
+.debug .operations .col-4 {
     background-color: aqua;
-    /* height: 50%; */
-}
+    height: 50%; 
+}*/
 
 /* #endregion operation */
 /* #region claim */

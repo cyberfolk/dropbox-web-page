@@ -165,6 +165,20 @@
 
 /* #endregion partners */
 /* #region operations */
+.operations .row {
+    /* Metto questo margin negativo per controbilanciare il padding delle col-x */
+    margin: 0 -1rem;
+}
+
+.operations .col-4 {
+    /* Per via di qusto padding metto il margin nella row */
+    padding: 1rem 1rem 0;
+}
+
+.operations h2 {
+    margin-bottom: 2rem;
+    /* devo riscrivere il margin a causa del padding dato a col-4; */
+}
 
 /* #endregion operations */
 /* #region team */
