@@ -1,28 +1,4 @@
 /* #region Utilities */
-
-
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.logo {
-    background-image: url("../img/logo.png");
-    height: 2rem;
-    aspect-ratio: var(--d-logo-ratio);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 .list-inline {
     list-style: none;
     display: flex;
@@ -63,7 +39,6 @@
     max-width: 1152px;
     margin: auto;
 }
-
 
 /* #endregion Container */
 
@@ -585,41 +560,5 @@
 }
 
 /* #endregion Button-utility */
-
-/* #region Color Color-bg */
-
-.c-green {
-    color: green;
-}
-
-.c-red {
-    color: red;
-}
-
-.c-yellow {
-    color: yellow;
-}
-
-.c-blu {
-    color: blue;
-}
-
-.bg-c-green {
-    background-color: green;
-}
-
-.bg-c-red {
-    background-color: red;
-}
-
-.bg-c-yellow {
-    background-color: yellow;
-}
-
-.bg-c-blu {
-    background-color: blue;
-}
-
-/* #endregion Color Color-bg */
 
 /* #endregion Utilities */
