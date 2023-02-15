@@ -41,6 +41,11 @@ ul li {
     list-style-type: none;
 }
 
+hr {
+    border: 0.5px solid lightgray;
+    margin-bottom: 3rem;
+}
+
 :root {
     --d-app-header-bg: #75eaff;
     --d-app-main-bg: #d7da20;

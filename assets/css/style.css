@@ -30,7 +30,7 @@
 }
 
 #app-header .list-inline a:hover {
-    /* Override locale di un common */
+    /* Override locale di un common tag */
     text-decoration: underline;
 }
 
@@ -150,11 +150,10 @@
     margin-bottom: 1.5rem;
 }
 
-.spacer {
+.plans .spacer {
+    /* Override locale di un common tag */
     width: 3rem;
-    border-top: 1px solid lightgray;
     margin-top: 2rem;
-    margin-bottom: 3rem;
 }
 
 .plans .col-12 .price {
@@ -222,6 +221,12 @@
 
 .designit .l-designit {
     background-color: #F5F5F5;
+}
+
+.designit .spacer {
+    /* Override locale di un common tag */
+    width: 3rem;
+    margin-top: 2rem;
 }
 
 .designit .wbr {
@@ -325,10 +330,9 @@
 }
 
 /* #endregion footer-top */
-.spacer2 {
+.footer-top .spacer {
+    /* Override locale di un common tag */
     width: 5rem;
-    border-top: 2px solid lightgray;
-    margin-bottom: 3rem;
 }
 
 /* #region footer-bottom */
