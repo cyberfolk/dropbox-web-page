@@ -76,7 +76,7 @@
     padding: 2.5rem 1rem 1.5rem;
 }
 
-.payment-option {
+.plans .payment-option {
     display: flex;
     gap: 2rem;
     align-content: baseline;
@@ -85,19 +85,20 @@
 .plans .plane-type {
     text-align: center;
     padding: 0.5rem;
-    border-top: 2px solid lightgray;
-    border-left: 2px solid lightgray;
-    border-right: 2px solid lightgray;
+    border-top: 2px solid var(--d-lightgray);
+    border-left: 2px solid var(--d-lightgray);
+    border-right: 2px solid var(--d-lightgray);
 }
 
 .plans .card {
-    border: 2px solid lightgray;
+    border: 2px solid var(--d-lightgray);
     /* Per via di qusto padding metto il margin nella row */
     padding: 0 1.5rem 0;
     min-height: 100%;
 }
 
 .plans h3 {
+    /* Overrode del margin, motivato dal padding dato a col-x; */
     margin-top: 1.5rem;
 }
 
@@ -189,7 +190,7 @@
 
 .operations h2 {
     margin-bottom: 2rem;
-    /* devo riscrivere il margin a causa del padding dato a col-4; */
+    /* Overrode del margin, motivato dal padding dato a col-4; */
 }
 
 /* #endregion operations */
@@ -210,7 +211,7 @@
 }
 
 .designit .l-designit_b > svg {
-    /* Override del padding, motivato dal padding di questa cella */
+    /* Override del padding, motivato dal border di questa cella */
     padding: calc(4rem - 10px);
 }
 
