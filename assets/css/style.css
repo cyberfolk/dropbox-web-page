@@ -261,7 +261,7 @@
 }
 
 .call-to-action h2 {
-    color: --d-dark-secondary;
+    color: var(--d-dark-secondary);
     /* ho voluto sovrascrivere il margin di h2 per mettere py-8 nella call-to-action */
     margin-bottom: 0;
 }
@@ -269,12 +269,12 @@
 /* #endregion call-to-action */
 /* #region faqs */
 .faqs .faq {
-    border-top: 2px solid lightgray;
+    border-top: 2px solid var(--d-lightgray);
     padding: 2rem 0;
 }
 
 .faqs #last-faq {
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid var(--d-lightgray);
 }
 
 .faqs .faq {
