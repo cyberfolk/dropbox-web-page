@@ -547,13 +547,13 @@
 }
 
 .btn-white {
-    background-color: white;
-    color: black;
+    background-color: var(--d-withe);
+    color: var(--d-black);
 }
 
 .btn-primary {
     background-color: var(--d-light);
-    color: white;
+    color: var(--d-white);
 }
 
 /* #endregion Button-utility */

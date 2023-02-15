@@ -47,21 +47,24 @@ hr {
 }
 
 :root {
-    --d-app-header-bg: #75eaff;
-    --d-app-main-bg: #d7da20;
-    --d-jumbo-bg: #B4D0E7;
-    --d-app-footer-bg: #39eb6c;
-    --d-logo-ratio: 678 / 151;
-    --d-shadow: #9d9d9d;
-    --d-btn-dark: #22272b;
-    --d-btn-primary: #8ea0e0;
-    --d-btn-light: #f7f7f6;
-    --d-btn-lighter: white;
-    --d-app-header-height: 70px;
-    --d-app-footer-height: 50px;
     --icon-size: .8em;
     --gutter: .5em;
     --d-light: #0061ff;
+    --d-light-primar: #B4D0E7;
+    --d-white: white;
+    --d-black: black;
+    --d-gray: gray;
+    --d-dark-secondary: #671435;
+
+    --d-l-designit_b-bg: #A2D39B;
+    --d-l-designit_b-b: #D1E9CD;
+    --d-asu: #61082B;
+    --d-uff: #0093CE;
+    --d-topps: #FF1C1C;
+    --d-l-designit: #F5F5F5;
+    --d-wbr: #D5001F;
+    --d-lonely-planet: #0D2481;
+    --d-cco: #FFD830;
 }
 
 /* #endregion Common Rules */

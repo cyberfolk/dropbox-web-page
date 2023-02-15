@@ -1,6 +1,6 @@
 /* #region app-header */
 #app-header {
-    background-color: white;
+    background-color: var(--d-white);
 }
 
 #app-header .row {
@@ -19,13 +19,13 @@
     /* Override locale di una classe in utility */
     gap: 2rem;
     align-items: center;
-    color: black;
+    color: var(--d-black);
     text-decoration: none;
 }
 
 #app-header .list-inline a {
     /* Override locale di un common tag */
-    color: black;
+    color: var(--d-black);
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@
 /* #region jumbo */
 
 .jumbo {
-    background-color: var(--d-jumbo-bg);
+    background-color: var(--d-light-primar);
 }
 
 .jumbo .row {
@@ -52,7 +52,7 @@
 }
 
 .jumbo .fa-arrow-down {
-    color: black;
+    color: var(--d-black);
 }
 
 .jumbo img {
@@ -74,6 +74,12 @@
 .plans .col-12 {
     /* Per via di qusto padding metto il margin nella row */
     padding: 2.5rem 1rem 1.5rem;
+}
+
+.payment-option {
+    display: flex;
+    gap: 2rem;
+    align-content: baseline;
 }
 
 .plans .plane-type {
@@ -101,7 +107,7 @@
 }
 
 .plans .frequency {
-    color: grey;
+    color: var(--d-gray);
     margin-bottom: 2rem;
 }
 
@@ -199,8 +205,8 @@
 }
 
 .designit .l-designit_b {
-    background-color: #A2D39B;
-    border: 10px solid #D1E9CD;
+    background-color: var(--d-l-designit_b-bg);
+    border: 10px solid var(--d-l-designit_b-b);
 }
 
 .designit .l-designit_b > svg {
@@ -209,20 +215,20 @@
 }
 
 .designit .asu {
-    background-color: #61082B;
+    background-color: var(--d-asu);
 }
 
 .designit .uf {
-    background-color: #0093CE;
+    background-color: var(--d-uff);
 }
 
 .designit .topps {
-    background-color: #FF1C1C;
+    background-color: var(--d-topps);
 }
 
 
 .designit .l-designit {
-    background-color: #F5F5F5;
+    background-color: var(--d-l-designit);
 }
 
 .designit .spacer {
@@ -233,29 +239,29 @@
 }
 
 .designit .wbr {
-    background-color: #D5001F;
+    background-color: var(--d-wbr);
 }
 
 .designit .hearstcorp {
-    background-color: #B4D0E7;
+    background-color: var(--d-light-primar);
 }
 
 .designit .lonely-planet {
-    background-color: #0D2481;
+    background-color: var(--d-lonely-planet);
 }
 
 .designit .cco {
-    background-color: #FFD830;
+    background-color: var(--d-cco);
 }
 
 /* #endregion designit */
 /* #region call-to-action */
 .call-to-action {
-    background-color: var(--d-jumbo-bg);
+    background-color: var(--d-light-primar);
 }
 
 .call-to-action h2 {
-    color: #671435;
+    color: --d-dark-secondary;
     /* ho voluto sovrascrivere il margin di h2 per mettere py-8 nella call-to-action */
     margin-bottom: 0;
 }
@@ -313,8 +319,8 @@
 /* #region app-footer */
 /* #region footer-top */
 #app-footer {
-    color: white;
-    background-color: black;
+    color: var(--d-white);
+    background-color: var(--d-black);
 }
 
 #app-footer li {
@@ -324,7 +330,7 @@
 
 #app-footer a {
     /* Override della definizione messa in common */
-    color: white;
+    color: var(--d-white);
     text-decoration: none;
 }
 
