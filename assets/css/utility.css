@@ -534,7 +534,8 @@
 
 /* #region Button-utility */
 .btn-w-max {
-    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 .btn {

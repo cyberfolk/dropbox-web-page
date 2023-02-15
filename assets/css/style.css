@@ -51,7 +51,7 @@
     font-size: 3rem;
 }
 
-.jumbo a {
+.jumbo .fa-arrow-down {
     color: black;
 }
 
@@ -142,7 +142,7 @@
     color: var(--d-light);
 }
 
-.plans button {
+.plans .btn {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
