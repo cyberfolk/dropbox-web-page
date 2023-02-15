@@ -23,7 +23,7 @@
 /* #region Container */
 
 .container {
-    width: 52%;
+    width: 65%;
     max-width: 1152px;
     margin: auto;
 }
@@ -546,7 +546,7 @@
 .btn {
     padding: 0.5rem 1rem;
     border: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: normal;
     text-decoration: none;
 }

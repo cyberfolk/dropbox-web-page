@@ -11,7 +11,7 @@
 #app-header .menu-right {
     display: flex;
     gap: 2rem;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     align-items: center;
 }
 
@@ -206,6 +206,11 @@
     border: 10px solid #D1E9CD;
 }
 
+.designit .l-designit_b > svg {
+    /* Override del padding, motivato dal padding di questa cella */
+    padding: calc(4rem - 10px);
+}
+
 .designit .asu {
     background-color: #61082B;
 }
@@ -225,8 +230,9 @@
 
 .designit .spacer {
     /* Override locale di un common tag */
-    width: 3rem;
+    width: 5rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .designit .wbr {
