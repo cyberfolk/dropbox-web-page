@@ -70,9 +70,10 @@
     align-items: stretch;
 }
 
-.plans .col-4,
-.plans .col-12 {
+.plans .row > .col-4,
+.plans .row > .col-12 {
     /* Per via di qusto padding metto il margin nella row */
+    /* Ho messo ".row >" in modo da escludere l'ultima col-4 presente nella sezione */
     padding: 2.5rem 1rem 1.5rem;
 }
 
@@ -91,9 +92,10 @@
 }
 
 .plans .card {
-    border: 2px solid var(--d-lightgray);
     /* Per via di qusto padding metto il margin nella row */
-    padding: 0 1.5rem 0;
+    padding: 0 1.5rem;
+    border: 2px solid var(--d-lightgray);
+    /* Setto l'altezza per far terminare alla pari le col-4 */
     min-height: 100%;
 }
 
@@ -112,23 +114,23 @@
     margin-bottom: 2rem;
 }
 
-.highlights {
+.plans .highlights {
     margin-bottom: 1.5rem;
     font-weight: bold;
 }
 
 .plans li {
+    /* Override locale di un common tag */
     margin-bottom: 1rem;
     padding-left: var(--gutter);
-    list-style-type: none;
 }
 
 .plans ul {
+    /* Override locale di un common tag */
     padding-left: var(--icon-size);
 }
 
 .plans li::marker {
-    /* FontAwesome Unicode */
     font-family: FontAwesome;
 }
 
@@ -155,19 +157,13 @@
 }
 
 .plans .spacer {
-    /* Override locale di un common tag */
+    /* Override locale di una classe in utility */
     width: 3rem;
     margin-top: 2rem;
 }
 
 .plans .col-12 .price {
     padding-bottom: 2rem;
-}
-
-.plans .reset {
-    /* All'interno della card lrga mi serve annullare padding e margin della col-4  */
-    margin: 0;
-    padding: 0;
 }
 
 /* #endregion plans */
