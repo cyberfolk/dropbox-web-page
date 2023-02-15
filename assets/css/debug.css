@@ -47,25 +47,21 @@
 
 .debug .plans header {
     height: 20%;
-}
+}*/
 
-.debug .plans .container .row {
-    height: 80%;
-    justify-content: center;
-}
+/* .debug .plans .container .row {
 
-.debug .plans .col-4,
+    background-color: rgb(255, 251, 0);
+} */
+
+/* .debug .plans .col-4,
 .debug .plans .col-12 {
     background-color: aqua;
-}
+} */
 
-.debug .plans .col-4 {
-    height: 70%;
+.debug .plans .card {
+    background-color: rgb(255, 251, 0);
 }
-
-.debug .plans .col-12 {
-    height: 30%;
-}*/
 
 /* #endregion plans */
 /* #region partners */

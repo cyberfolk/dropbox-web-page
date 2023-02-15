@@ -67,12 +67,13 @@
     /* Metto questo margin negativo per controbilanciare il padding delle col-x */
     margin: 0 -1rem;
     align-items: flex-start;
+    align-items: stretch;
 }
 
 .plans .col-4,
 .plans .col-12 {
     /* Per via di qusto padding metto il margin nella row */
-    padding: 2.5rem 1rem 0;
+    padding: 2.5rem 1rem 1.5rem;
 }
 
 .plans .plane-type {
@@ -86,12 +87,8 @@
 .plans .card {
     border: 2px solid lightgray;
     /* Per via di qusto padding metto il margin nella row */
-    padding: 0 1.5rem 1.5rem;
-}
-
-.plans .row .col-4 .card {
-    /* Altezza messa per far finire le card tutte allo stesso tempo */
-    height: 820px;
+    padding: 0 1.5rem 0;
+    min-height: 100%;
 }
 
 .plans h3 {
