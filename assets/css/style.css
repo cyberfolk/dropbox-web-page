@@ -51,6 +51,10 @@
     font-size: 3rem;
 }
 
+.jumbo a {
+    color: black;
+}
+
 .jumbo img {
     /* Margine negativo per far diminuire l'altezza del .jumbo */
     margin-bottom: -4rem;
