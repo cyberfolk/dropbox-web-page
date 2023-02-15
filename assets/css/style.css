@@ -42,10 +42,6 @@
     background-color: var(--d-jumbo-bg);
 }
 
-.jumbo {
-    height: 632px;
-}
-
 .jumbo .row {
     flex-wrap: nowrap;
 }
@@ -54,6 +50,12 @@
     margin-top: 2rem;
     font-size: 3rem;
 }
+
+.jumbo img {
+    /* Margine negativo per far diminuire l'altezza del .jumbo */
+    margin-bottom: -4rem;
+}
+
 
 /* #endregion jumbo */
 /* #region plans */
