@@ -317,34 +317,33 @@
 /* #endregion faqs */
 /* #endregion app-main */
 /* #region app-footer */
-/* #region footer-top */
 #app-footer {
     color: var(--d-white);
     background-color: var(--d-black);
 }
 
-#app-footer li {
+/* #region footer-top */
+.footer-top li {
     margin-bottom: 1rem;
     /* Controllare che magari si puà spostare in common */
 }
 
-#app-footer a {
+.footer-top a {
     /* Override della definizione messa in common */
     color: var(--d-white);
     text-decoration: none;
 }
 
-#app-footer a:hover {
+.footer-top a:hover {
     text-decoration: underline;
 }
 
 /* #endregion footer-top */
+/* #region footer-bottom */
 .footer-top .spacer {
     /* Override locale di un common tag */
     width: 5rem;
 }
-
-/* #region footer-bottom */
 
 /* #endregion footer-bottom */
 /* #endregion app-footer */
