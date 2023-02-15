@@ -1,35 +1,36 @@
 /* #region app-header */
 #app-header {
-    height: var(--d-app-header-height);
     background-color: white;
+}
+
+#app-header .row {
+    justify-content: space-between;
 }
 
 #app-header .menu-left,
 #app-header .menu-right {
     display: flex;
-    flex-basis: 50%;
-}
-
-#app-header .menu-left {
-    justify-content: flex-start;
-}
-
-#app-header .menu-right {
-    justify-content: flex-end;
-}
-
-#app-header .list-inline {
     gap: 2rem;
-    height: 100%;
+    padding: 1.5rem 0;
     align-items: center;
 }
 
-#app-header a {
+#app-header .list-inline {
+    /* Override locale di una classe in utility */
+    gap: 2rem;
+    align-items: center;
     color: black;
     text-decoration: none;
 }
 
-#app-header a:hover {
+#app-header .list-inline a {
+    /* Override locale di un common tag */
+    color: black;
+    text-decoration: none;
+}
+
+#app-header .list-inline a:hover {
+    /* Override locale di un common */
     text-decoration: underline;
 }
 

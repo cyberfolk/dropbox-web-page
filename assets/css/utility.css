@@ -544,14 +544,16 @@
 }
 
 .btn {
-    padding: 0.7rem;
+    padding: 0.5rem 1rem;
     border: none;
     font-size: 0.9rem;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .btn-white {
     background-color: white;
+    color: black;
 }
 
 .btn-primary {
