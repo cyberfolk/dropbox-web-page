@@ -1,6 +1,7 @@
 /* #region app-header */
 #app-header {
     background-color: var(--d-white);
+    box-shadow: 0 0 10px var(--d-shadow);
 }
 
 #app-header .row {
