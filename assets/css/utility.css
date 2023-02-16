@@ -21,7 +21,6 @@
 }
 
 /* #region Container */
-
 .container {
     width: 90%;
     max-width: 1140px;
@@ -414,12 +413,6 @@
 
 .col-p30 {
     width: 30%;
-    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
-    /* padding: 1rem; */
-}
-
-.col-p33 {
-    width: 33.33%;
     /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
     /* padding: 1rem; */
 }
