@@ -1,21 +1,21 @@
 /* #region app-header */
-#app-header {
+.header-top {
     background-color: var(--d-white);
     box-shadow: 0 0 10px var(--d-shadow);
 }
 
-#app-header .row {
+.header-top .row {
     justify-content: space-between;
 }
 
-#app-header .menu-left,
-#app-header .menu-right {
+.header-top .menu-left,
+.header-top .menu-right {
     display: flex;
     gap: 2rem;
     align-items: center;
 }
 
-#app-header .list-inline {
+.header-top .list-inline {
     /* Override locale di una classe in utility */
     gap: 2rem;
     align-items: center;
@@ -23,68 +23,104 @@
     padding: 1rem 0;
 }
 
-#app-header .list-inline a {
+.header-top .list-inline a {
     /* Override locale di un common tag */
     color: var(--d-black);
     text-decoration: none;
     padding: 1rem 0;
 }
 
-#app-header .list-inline a:hover {
+.header-top .list-inline a:hover {
     /* Override locale di un common tag */
     border-bottom: 2px solid var(--d-dark-secondary);
 }
+
+.nav-bar {
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+}
+
+.nav-bar li {
+    margin-top: 0.75rem;
+}
+
+.nav-bar .etiquette {
+    font-size: 0.8rem;
+    display: none;
+    color: var(--d-light);
+}
+
+.nav-barbottom li:hover .etiquette {
+    display: inline;
+}
+
+.nav-bar i::before {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    border: 2px solid var(--d-light-primar);
+    color: var(--d-light);
+    background-color: var(--d-white);
+}
+
 
 /* #endregion app-header */
 /* #region app-main */
 /* #region jumbo */
 
-.jumbo {
+#jumbo {
     background-color: var(--d-light-primar);
 }
 
-.jumbo .row {
+#jumbo .row {
     flex-wrap: nowrap;
 }
 
-.jumbo .fa-arrow-down {
+#jumbo .fa-arrow-down {
     margin-top: 2rem;
     font-size: 3rem;
 }
 
-.jumbo .fa-arrow-down {
+#jumbo .fa-arrow-down {
     color: var(--d-black);
 }
 
-.jumbo img {
-    /* Margine negativo per far diminuire l'altezza del .jumbo */
+#jumbo img {
+    /* Margine negativo per far diminuire l'altezza del #jumbo */
     margin-bottom: -4rem;
 }
 
 
 /* #endregion jumbo */
 /* #region plans */
-.plans .row {
+#plans .row {
     /* Metto questo margin negativo per controbilanciare il padding delle col-x */
     margin: 0 -1rem;
     align-items: flex-start;
     align-items: stretch;
 }
 
-.plans .row > .col-4,
-.plans .row > .col-12 {
+#plans .row > .col-4,
+#plans .row > .col-12 {
     /* Per via di qusto padding metto il margin nella row */
     /* Ho messo ".row >" in modo da escludere l'ultima col-4 presente nella sezione */
     padding: 2.5rem 1rem 1.5rem;
 }
 
-.plans .payment-option {
+#plans .payment-option {
     display: flex;
     gap: 2rem;
     align-content: baseline;
 }
 
-.plans .plane-type {
+#plans .plane-type {
     text-align: center;
     padding: 0.5rem;
     border-top: 2px solid var(--d-lightgray);
@@ -92,7 +128,7 @@
     border-right: 2px solid var(--d-lightgray);
 }
 
-.plans .card {
+#plans .card {
     /* Per via di qusto padding metto il margin nella row */
     padding: 0 1.5rem;
     border: 2px solid var(--d-lightgray);
@@ -100,38 +136,38 @@
     min-height: 100%;
 }
 
-.plans h3 {
+#plans h3 {
     /* Overrode del margin, motivato dal padding dato a col-x; */
     margin-top: 1.5rem;
 }
 
-.plans .price {
+#plans .price {
     font-weight: bold;
     margin-bottom: 0.4rem;
 }
 
-.plans .frequency {
+#plans .frequency {
     color: var(--d-gray);
     margin-bottom: 2rem;
 }
 
-.plans .highlights {
+#plans .highlights {
     margin-bottom: 1.5rem;
     font-weight: bold;
 }
 
-.plans li {
+#plans li {
     /* Override locale di un common tag */
     margin-bottom: 1rem;
     padding-left: var(--gutter);
 }
 
-.plans ul {
+#plans ul {
     /* Override locale di un common tag */
     padding-left: var(--icon-size);
 }
 
-.plans li::marker {
+#plans li::marker {
     font-family: FontAwesome;
 }
 
@@ -152,40 +188,41 @@
     color: var(--d-light);
 }
 
-.plans .btn {
+#plans .btn {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
 
-.plans .spacer {
+#plans .spacer {
     /* Override locale di una classe in utility */
     width: 3rem;
     margin-top: 2rem;
 }
 
-.plans .col-12 .price {
+#plans .col-12 .price {
     padding-bottom: 2rem;
 }
 
 /* #endregion plans */
 /* #region partners */
-.partners .btn {
+#partners .btn {
+    /* Override locale di una classe in utility */
     border: 1px solid black;
 }
 
 /* #endregion partners */
 /* #region operations */
-.operations .row {
+#operations .row {
     /* Metto questo margin negativo per controbilanciare il padding delle col-x */
     margin: 0 -1rem;
 }
 
-.operations .col-4 {
+#operations .col-4 {
     /* Per via di qusto padding metto il margin nella row */
     padding: 1rem 1rem 0;
 }
 
-.operations h2 {
+#operations h2 {
     margin-bottom: 2rem;
     /* Overrode del margin, motivato dal padding dato a col-4; */
 }
@@ -195,70 +232,70 @@
 
 /* #endregion team */
 /* #region designit */
-.designit .col-6 > svg {
+#designit .col-6 > svg {
     width: 100%;
     aspect-ratio: 1/1;
     padding: 3rem;
     filter: invert(100%);
 }
 
-.designit .l-designit_b {
+#designit .l-designit_b {
     background-color: var(--d-l-designit_b-bg);
     border: 10px solid var(--d-l-designit_b-b);
 }
 
-.designit .l-designit_b > svg {
+#designit .l-designit_b > svg {
     /* Override del padding, motivato dal border di questa cella */
     padding: calc(3rem - 10px);
 }
 
-.designit .asu {
+#designit .asu {
     background-color: var(--d-asu);
 }
 
-.designit .uf {
+#designit .uf {
     background-color: var(--d-uff);
 }
 
-.designit .topps {
+#designit .topps {
     background-color: var(--d-topps);
 }
 
 
-.designit .l-designit {
+#designit .l-designit {
     background-color: var(--d-l-designit);
 }
 
-.designit .spacer {
+#designit .spacer {
     /* Override locale di un common tag */
     width: 5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.designit .wbr {
+#designit .wbr {
     background-color: var(--d-wbr);
 }
 
-.designit .hearstcorp {
+#designit .hearstcorp {
     background-color: var(--d-light-primar);
 }
 
-.designit .lonely-planet {
+#designit .lonely-planet {
     background-color: var(--d-lonely-planet);
 }
 
-.designit .cco {
+#designit .cco {
     background-color: var(--d-cco);
 }
 
 /* #endregion designit */
 /* #region call-to-action */
-.call-to-action {
+#call-to-action {
     background-color: var(--d-light-primar);
 }
 
-.call-to-action h2 {
+#call-to-action h2 {
     color: var(--d-dark-secondary);
     /* ho voluto sovrascrivere il margin di h2 per mettere py-8 nella call-to-action */
     margin-bottom: 0;
@@ -266,32 +303,32 @@
 
 /* #endregion call-to-action */
 /* #region faqs */
-.faqs .faq {
+#faqs .faq {
     border-top: 2px solid var(--d-lightgray);
     padding: 2rem 0;
 }
 
-.faqs #last-faq {
+#faqs #last-faq {
     border-bottom: 2px solid var(--d-lightgray);
 }
 
-.faqs .faq {
+#faqs .faq {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.faqs .ask {
+#faqs .ask {
     font-weight: bold;
 }
 
-.faqs .answer {
+#faqs .answer {
     display: none;
     padding-right: 8rem;
     padding-top: 1rem;
 }
 
-.faqs input[type=checkbox] {
+#faqs input[type=checkbox] {
     /* Uso appearance per nascondere il normale checkbox */
     appearance: none;
     font-family: FontAwesome;
@@ -299,16 +336,16 @@
     padding-right: 2rem;
 }
 
-.faqs input[type=checkbox]:before {
+#faqs input[type=checkbox]:before {
     content: "\f106";
 }
 
-.faqs input[type=checkbox]:checked:before {
+#faqs input[type=checkbox]:checked:before {
     content: "\f107";
 }
 
 /* checked icon */
-.faqs input[type=checkbox]:checked + .answer {
+#faqs input[type=checkbox]:checked + .answer {
     display: block;
 }
 

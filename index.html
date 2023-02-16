@@ -20,37 +20,83 @@
     </head>
 
     <body class="debug">
-
         <header id="app-header" class="p-sticky">
-            <div class="row mx-1">
-                <nav class="menu-left">
-                    <img src="./assets/img/logo-small.png" alt="logo dropbox">
-                    <ul class="list-inline">
-                        <li><a href="#">Perchè Dropbox</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                        <li><a href="#">Piani e Prezzii</a></li>
-                    </ul>
-                </nav>
-                <!-- /.menu-left -->
-                <nav class="menu-right">
-                    <ul class="list-inline">
-                        <li><a href="#">Supporto</a></li>
-                        <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    </ul>
-                    <div>
-                        <a href="#" class="btn btn-white ">Accedi</a>
-                        <a href="#" class="btn btn-primary ">Inizia</a>
-                    </div>
-                </nav>
-                <!-- /.menu-right -->
-            </div>
-            <!-- /.row -->
+            <section class="header-top">
+                <div class="row mx-1">
+                    <nav class="menu-left">
+                        <img src="./assets/img/logo-small.png" alt="logo dropbox">
+                        <ul class="list-inline">
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                            <li><a href="#">Piani e Prezzii</a></li>
+                        </ul>
+                    </nav>
+                    <!-- /.menu-left -->
+                    <nav class="menu-right">
+                        <ul class="list-inline">
+                            <li><a href="#">Supporto</a></li>
+                            <li><a href="#">Contatta l'ufficio vendite</a></li>
+                        </ul>
+                        <div>
+                            <a href="#" class="btn btn-white ">Accedi</a>
+                            <a href="#" class="btn btn-primary ">Inizia</a>
+                        </div>
+                    </nav>
+                    <!-- /.menu-right -->
+                </div>
+                <!-- /.row -->
+            </section>
+            <!-- /.header-top -->
+
+            <aside class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#jumbo"><i class="fa-solid fa-fire-flame-curved"></i></a>
+                        <span class="etiquette">Jumbo</span>
+                    </li>
+                    <li>
+                        <a href="#plans"><i class="fa-solid fa-ruler-vertical"></i></a>
+                        <span class="etiquette">Plans</span>
+                    </li>
+                    <li>
+                        <a href="#partners"><i class="fa-solid fa-handshake"></i></a>
+                        <span class="etiquette">Partners</span>
+                    </li>
+                    <li>
+                        <a href="#operations"><i class="fa-solid fa-envelope-open-text"></i></a>
+                        <span class="etiquette">Operations</span>
+                    </li>
+                    <li>
+                        <a href="#team"><i class="fa-solid fa-people-group"></i></a>
+                        <span class="etiquette">Team</span>
+                    </li>
+                    <li>
+                        <a href="#designit"><i class="fa-solid fa-pencil"></i></a>
+                        <span class="etiquette">Designit</span>
+                    </li>
+                    <li>
+                        <a href="#call-to-action"><i class="fa-solid fa-tower-cell"></i></a>
+                        <span class="etiquette">Call to action</span>
+                    </li>
+                    <li>
+                        <a href="#faqs"><i class="fa-solid fa-question"></i></a>
+                        <span class="etiquette">FAQS</span>
+                    </li>
+                    <li>
+                        <a href="#app-footer"><i class="fa-solid fa-shoe-prints"></i></a>
+                        <span class="etiquette">Footer</span>
+                    </li>
+                </ul>
+            </aside>
+            <!-- /.header-bottom -->
+
+
         </header>
         <!-- /#app-header -->
 
         <main id="app-main">
 
-            <section class="jumbo">
+            <section id="jumbo">
                 <div class="container pt-5">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                     <div class="row">
@@ -70,7 +116,7 @@
             </section>
             <!-- /.jumbo -->
 
-            <section id="plans-id" class="plans">
+            <section id="plans">
                 <div class="container-sm pt-8">
                     <h2>Trova il piano Business che fa per te</h2>
                     <div class="payment-option">
@@ -192,7 +238,7 @@
             </section>
             <!-- /.plans -->
 
-            <section class="partners">
+            <section id="partners">
                 <div class="container-sm pt-8">
                     <div class="row">
                         <div class="col-7">
@@ -210,7 +256,7 @@
             </section>
             <!-- /.partners -->
 
-            <section class="operations">
+            <section id="operations">
                 <div class="container-sm pt-8">
                     <header>
                         <h2>Esegui più operazioni con Dropbox Business</h2>
@@ -265,7 +311,7 @@
             </section>
             <!-- /.operations -->
 
-            <section class="team">
+            <section id="team">
                 <div class="container-sm pt-8">
                     <div class="col-8">
                         <h2>Più di 500.000 team utilizzano Dropbox Business </h2>
@@ -276,7 +322,7 @@
             </section>
             <!-- /.team -->
 
-            <section class="designit pt-8">
+            <section id="designit" class="pt-8">
                 <div class="row">
                     <div class="col-4">
                         <div class="row">
@@ -451,7 +497,7 @@
             </section>
             <!-- /.designit -->
 
-            <section class="call-to-action">
+            <section id="call-to-action">
                 <div class="container-sm py-8">
                     <div class="row jc-sb">
                         <div class="col-6">
@@ -468,7 +514,7 @@
             </section>
             <!-- /.call-to-action -->
 
-            <section class="faqs">
+            <section id="faqs">
                 <div class="container-sm py-8">
                     <h2>Domande frequenti</h2>
                     <div class="faq">
