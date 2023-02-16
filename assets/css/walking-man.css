@@ -11,7 +11,15 @@
     position: absolute;
     bottom: 0;
     left: 0;
+
+    transition: margin-bottom 1s;
 }
+
+#man:active {
+    /* Premento su #man va in alto */
+    margin-bottom: 60px;
+}
+
 
 .footer-top .container {
     /* Override del footer-top, motivato da #man che è fuori dal flusso normale del documento */
