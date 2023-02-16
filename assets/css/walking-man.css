@@ -1,0 +1,66 @@
+/* Animazione del personaggio */
+#man {
+    /* Diamo a #man una width pari a un 1/6 della sua bg-img; */
+    width: 112px;
+    height: 156px;
+    background: url("../img/walking-man.png");
+
+    animation: walk .8s steps(6) infinite, traslation 10s linear infinite;
+
+    /* Posizioniamo il personaggio sul bottom-margin del footer-top */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-top .container {
+    /* Override del footer-top, motivato da #man che è fuori dal flusso normale del documento */
+    position: relative;
+    padding-bottom: calc(156px + 1rem);
+}
+
+/* Animazione camminata: fatta spostando la bg-img verso sinistra. */
+@keyframes walk {
+
+    /* Partiamo dal primo frame della bg-img */
+    0% {
+        background-position: 0
+    }
+
+    /* Terminiamo con la larghezza totale della bg-img. 
+       Il "-" serve per far scorrerla verso sinistra */
+    100% {
+        background-position: -672px
+    }
+}
+
+/* Animazione dello spostamento. */
+@keyframes traslation {
+
+    0% {
+        bottom: 0;
+        left: 0;
+        transform: scaleX(1);
+    }
+
+    45% {
+        /* #man è appena arrivato al margine destro */
+        bottom: 0;
+        left: calc(100% - 112px);
+        transform: scaleX(1);
+    }
+
+    50% {
+        /* #man ha appena finito di voltarsi, è pronto per tornare indietro */
+        bottom: 0;
+        left: calc(100% - 112px);
+        transform: scaleX(-1);
+    }
+
+    95% {
+        /* #man è appena arrivato al margine sinistro, inizia a voltarsi per tornare indietro */
+        bottom: 0;
+        left: 0;
+        transform: scaleX(-1);
+    }
+}

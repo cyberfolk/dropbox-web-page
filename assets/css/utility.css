@@ -544,16 +544,22 @@
     font-size: 0.8rem;
     font-weight: normal;
     text-decoration: none;
+    transition: filter 1s;
 }
 
 .btn-white {
     background-color: var(--d-white);
     color: var(--d-black);
+
 }
 
 .btn-primary {
     background-color: var(--d-light);
     color: var(--d-white);
+}
+
+.btn:hover {
+    filter: drop-shadow(0 0 10px var(--d-shadow)) invert(2%);
 }
 
 /* #endregion Button-utility */

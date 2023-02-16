@@ -23,8 +23,6 @@
     padding: 1rem 0;
 }
 
-
-
 #app-header .list-inline a {
     /* Override locale di un common tag */
     color: var(--d-black);
