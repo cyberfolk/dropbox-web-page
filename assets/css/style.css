@@ -198,7 +198,7 @@
 .designit .col-6 > svg {
     width: 100%;
     aspect-ratio: 1/1;
-    padding: 4rem;
+    padding: 3rem;
     filter: invert(100%);
 }
 
@@ -209,7 +209,7 @@
 
 .designit .l-designit_b > svg {
     /* Override del padding, motivato dal border di questa cella */
-    padding: calc(4rem - 10px);
+    padding: calc(3rem - 10px);
 }
 
 .designit .asu {
