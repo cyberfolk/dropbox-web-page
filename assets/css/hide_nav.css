@@ -1,0 +1,60 @@
+.hide_nav {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+}
+
+.hide_nav .btn_menu {
+    /* Uso appearance per nascondere il normale checkbox */
+    appearance: none;
+    font-family: FontAwesome;
+    font-size: 2rem;
+}
+
+.hide_nav .btn_menu:before {
+    /* Inserisco l'icona del menu */
+    content: "\f03a";
+}
+
+.hide_nav .id_list {
+    list-style: none;
+    display: none;
+}
+
+.hide_nav .btn_menu:checked ~ .id_list {
+    display: block;
+}
+
+.hide_nav li {
+    margin-top: 0.75rem;
+}
+
+.hide_nav li:hover .etiquette {
+    display: inline;
+}
+
+.hide_nav .etiquette {
+    font-size: 0.8rem;
+    display: none;
+    color: var(--d-light);
+}
+
+.hide_nav .show_etiquette:hover + .etiquette {
+    display: inline;
+}
+
+.hide_nav i::before,
+.hide_nav .btn_menu:before {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    border: 2px solid var(--d-light-primar);
+    color: var(--d-light);
+    background-color: var(--d-white);
+}

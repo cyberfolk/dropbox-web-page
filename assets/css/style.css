@@ -35,42 +35,6 @@
     border-bottom: 2px solid var(--d-dark-secondary);
 }
 
-.nav-bar {
-    position: absolute;
-    top: 3rem;
-    left: 1rem;
-}
-
-.nav-bar li {
-    margin-top: 0.75rem;
-}
-
-.nav-bar .etiquette {
-    font-size: 0.8rem;
-    display: none;
-    color: var(--d-light);
-}
-
-.nav-barbottom li:hover .etiquette {
-    display: inline;
-}
-
-.nav-bar i::before {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-right: 0.25rem;
-    vertical-align: middle;
-    border: 2px solid var(--d-light-primar);
-    color: var(--d-light);
-    background-color: var(--d-white);
-}
-
-
 /* #endregion app-header */
 /* #region app-main */
 /* #region jumbo */
