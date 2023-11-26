@@ -4,7 +4,9 @@
 
 **Tecnologie:** HTML, CSS e Flex.
 
-📥📦 Ecco qui la mia replica di Dropbox, sempre per Boolean!
-Layout creato tramite Penpot e blocchi colorati, poi per disporre gli elementi la gestione della griglia e flex sono stati fondamentali. Fatto con HTML e CSS puri, la gestione della griglia e dei contenuti è stata fondamentale.
+**Info**: 📥📦 Here is my Dropbox replica, again for Boolean!
+The layout was created using Penpot and colored blocks, and then to arrange the elements the management of the grid and flex were fundamental. Done with pure HTML and CSS, grid and content management were key.
+
+## Scrheenshoot 
 
 <img src="./references/screencapture.png"/>
